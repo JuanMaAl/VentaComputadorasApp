@@ -27,10 +27,10 @@ public class Computadora {
     public String toString() {
         return "Computadora{" +
                 "idComputadora=" + idComputadora +
-                ", nombre='" + nombre + '\'' +
-                ", monitor=" + monitor +
-                ", teclado=" + teclado +
-                ", raton=" + raton +
+                ", \nnombre='" + nombre + '\'' +
+                ", \nmonitor=" + monitor +
+                ", \nteclado=" + teclado +
+                ", \nraton=" + raton +
                 '}';
     }
 }//fin Clase Computadora
