@@ -3,7 +3,7 @@ package mundopc.modelo;
 public class Teclado extends DispositivoEntrada{
     //Atributos
     private final int idTeclado;
-    private static int contadorTeclados = 0;
+    private static int contadorTeclados;
 
     //Constructor
     public Teclado(String tipoEntrada, String marca){
