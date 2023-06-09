@@ -11,7 +11,7 @@ import mundopc.modelo.Teclado;
     FullStack con Angular, React y Spring Boot!
     https://www.udemy.com/course/aprende-java-en-13-dias-con-aplicaciones-del-mundo-real-spring/
  */
-public class Main {
+public class VentaComputadorasApp {
     public static void main(String[] args) {
         //Crear objetos
         Raton ratonLenovo = new Raton("bluetooth", "Lenovo");
