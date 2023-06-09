@@ -5,13 +5,13 @@ public class DispositivoEntrada {
     private String tipoEntrada;
     private String marca;
 
-    //Constructor
+    //Constructores
     public DispositivoEntrada(String tipoEntrada, String marca){
         this.tipoEntrada = tipoEntrada;
         this.marca = marca;
     }
 
-    //Métodos getters y setters
+    //Métodos
     public String getTipoEntrada() {
         return tipoEntrada;
     }
@@ -28,7 +28,6 @@ public class DispositivoEntrada {
         this.marca = marca;
     }
 
-    //Método To String
     @Override
     public String toString() {
         return "DispositivoEntrada{" +

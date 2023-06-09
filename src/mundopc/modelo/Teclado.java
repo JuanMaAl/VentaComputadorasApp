@@ -5,14 +5,13 @@ public class Teclado extends DispositivoEntrada{
     private final int idTeclado;
     private static int contadorTeclados;
 
-    //Constructor
+    //Constructores
     public Teclado(String tipoEntrada, String marca){
         super(tipoEntrada, marca);
         idTeclado = ++contadorTeclados;
     }
 
-    //To String
-
+    //Métodos
     @Override
     public String toString() {
         return "Teclado{" +

@@ -5,14 +5,13 @@ public class Raton extends DispositivoEntrada {
     private final int idRaton;
     private static int contadorRatones;
 
-    //Constructor
+    //Constructores
     public Raton(String tipoEntrada, String marca){
         super(tipoEntrada, marca);
         idRaton = ++contadorRatones;
     }
 
-    //Método to String
-
+    //Métodos
     @Override
     public String toString() {
         return "Raton{" +

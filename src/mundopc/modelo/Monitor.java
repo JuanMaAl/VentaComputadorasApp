@@ -18,9 +18,7 @@ public class Monitor {
         this.tamanio = tamanio;
     }
 
-    //Método toString
-
-
+    //Métodos
     @Override
     public String toString() {
         return "Monitor{" +
