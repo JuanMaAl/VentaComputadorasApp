@@ -26,11 +26,11 @@ public class Computadora {
     @Override
     public String toString() {
         return "Computadora{" +
-                "idComputadora=" + idComputadora +
-                ", \nnombre='" + nombre + '\'' +
-                ", \nmonitor=" + monitor +
-                ", \nteclado=" + teclado +
-                ", \nraton=" + raton +
+                "\n idComputadora=" + idComputadora +
+                ", nombre='" + nombre + '\'' +
+                ", \n monitor=" + monitor +
+                ", \n teclado=" + teclado +
+                ", \n raton=" + raton +
                 '}';
     }
 }//fin Clase Computadora

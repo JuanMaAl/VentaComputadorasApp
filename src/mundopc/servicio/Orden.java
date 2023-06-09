@@ -1,4 +1,5 @@
 package mundopc.servicio;
+
 import mundopc.modelo.Computadora;
 import java.util.ArrayList;
 import java.util.List;
@@ -23,7 +24,6 @@ public class Orden {
     public void mostrarOrden(){
         System.out.println("Orden #: " + idOrden);
         System.out.println("Total de computadoras: " + computadoras.size());
-        System.out.println();
         computadoras.forEach(System.out::println);
     }
 
